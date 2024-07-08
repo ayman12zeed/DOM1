@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 169, 208);
+}
+
+.visible {
+    display: block;
+    
+}
+.hidden {
+    display: none;
+}
+
+button[disabled] 
+{
+    pointer-events: none;
+}
+
+.highlight{
+    background-color: yellow;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.bold{
+    font-weight: bold;
+}

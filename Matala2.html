@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Elements Web </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"> </script>
+</head>
+<body>
+
+    <h3> Quastion Number 1 :</h3>
+    <section>
+        <p id="paragraph">This is a simple paragraph</p>
+        <input type="text" id="classInput" placeholder="Enter class name">
+        <button onclick="addClass()">Add Class</button>
+    </section>
+
+    <h3> Quastion Number 2 :</h3>
+        <section>
+        <p id="paragraph1" class="visible">
+            paragraph 1 :<br>
+            Sunny days are perfect for outdoor activities. 
+            <br> Whether it's going for a walk in the park, having a picnic, or playing sports, the warmth and light make everything more enjoyable. 
+            <br>The bright sun can lift spirits and provide a boost of energy, making it a great time to spend with family and friends.</p>
+        
+        
+        <p id="paragraph2" class="visible">
+            paragraph 2 :<br>
+        Reading is a wonderful hobby that can take you to different worlds without leaving your home.<br>
+         With just a book in hand, you can explore distant lands, meet interesting characters, and experience exciting adventures.<br>
+         It's a fantastic way to relax and unwind after a busy day.<br>
+        </p>
+
+        <p id="paragraph3" class="visible"> 
+            paragraph 3 :<br>
+         Healthy eating is important for maintaining good health.<br>
+          Eating a balanced diet with plenty of fruits, vegetables, and whole grains can help keep your body strong and energized. <br>
+          It's also essential to drink plenty of water and avoid too much junk food.<br>
+           Making smart food choices can improve your overall well-being and happiness.<br>  
+        </p>
+
+        <button onclick="toggleVisibility('paragraph1')">Hide / Show Paragraph 1</button>
+        <button onclick="toggleVisibility('paragraph2')">Hide / Show Paragraph 2</button>
+        <button onclick="toggleVisibility('paragraph3')">Hide / Show Paragraph 3</button>
+    </section>
+
+    <h3> Quastion Number 3 :</h3>
+    <section>
+        <button id="clickButton" onclick="changeButtonText()">Click me</button>
+    </section>
+    
+</body>
+</html>
